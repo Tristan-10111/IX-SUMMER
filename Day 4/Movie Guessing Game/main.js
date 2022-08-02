@@ -48,7 +48,7 @@ movieExplination.innerHTML = movieguess.explanation // dislplay a new movie disc
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    if(guessAnswer == movieguess.title){// not sure why if does not want to render
+    if(movieguess == randomMovie){// not sure why if does not want to render// tried applying different conditions but stil having a issue getting correct answer to display
     guess.innerHTML = "Correct Answer !";
     guess.classList.add('alert');
     guess.classList.add('alert-success');
