@@ -26,7 +26,9 @@
                         <hr>
                     </div>
 
-                        <p class="fs-3 " style="font-family: 'Bangers', cursive;">This movie is about a rectangle...</p>
+                        <p id="title" style="font-family: 'Bangers', cursive;"></p>
+                        <!-- cannot be a fixed paragraph -->
+                        <!-- call it by a id to make it changeable  -->
 
                     <div class="p-3">
                         <hr>
@@ -50,7 +52,7 @@
                 </div>
 
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-secondary" style="font-family: 'Bangers', cursive;" onclick="document.getElementById('result2').innerHTML = 'It\'s a cartoon'">Show hint</button>
+                        <button type="button" class="btn btn-secondary" id="btn">Show hint</button>
                     </div>
                     <!-- result for your hint -->
                     <div id="result2"  class="mt-3 p-2 text-black"></div>
